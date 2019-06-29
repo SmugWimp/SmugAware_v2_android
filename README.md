@@ -8,7 +8,9 @@ This was written with a Minimum SDK of 21, and a target of 28.
 use it however you would launch a new Fragment.  In this particular instance, I used this:
 
 Fragment fragment;
+
 myURL = "https://www.yourserver.com/path/to/flightaware/data.json";
+
 fragment = swSmugAware.newInstance(myURL);
 
 
