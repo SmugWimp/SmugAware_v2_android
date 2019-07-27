@@ -1,7 +1,9 @@
 # SmugAware_v2_android
 Updated code for Android.
 
-It is strongly suggested that you 'refactor' your project as 'AndroidX' to alleviate any possible 'Manifest Merger' errors. It uses google maps so you'll need to add that dependancy to your app gradle files: implementation 'com.google.android.gms:play-services-maps:17.0.0'
+It is strongly suggested that you 'refactor' your project as 'AndroidX' to alleviate any possible 'Manifest Merger' errors. It uses google maps so you'll need to add that dependancy to your app gradle files: 
+
+implementation 'com.google.android.gms:play-services-maps:17.0.0'
 
 This was written with a Minimum SDK of 21, and a target of 28.
 
