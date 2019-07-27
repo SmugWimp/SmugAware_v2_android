@@ -18,5 +18,7 @@ This whole thing is to display (on a mobile phone screen) a map with Airplane ac
 
 I build the receiever for fun, and used it as the basis for my 'Guam Airport Guide' that gives details about our local airport; flight schedules, etc... and it also has this neat 'Live' display of airplane activity (provided they have an ADS-B Transponder... mostly this is only the big planes)
 
+The 'cron.php' file is to run a cron job from your hosted server, to obtain the flight information from a device on your home network. This keeps millions of apps from trying to ask your home network for information, bogging down your connection. If you throw it off to your hosting provider, they're better suited for the traffic. 
+
 You can find more information on that at https://flightaware.com/adsb/piaware/
 
